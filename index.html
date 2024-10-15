@@ -7,10 +7,19 @@
   <body>
     <main>
       <form novalidate>
-        <h2>Login Page</h2>
-        <input type="mail" class="input-mail" />
-        <input type="password" class="input-password" />
-        <button>Login</button>
+        <div class="input-btn-container">
+          <h2>Login</h2>
+          <div class="input-mail-container">
+            <label for="mail">Email</label>
+            <input type="mail" class="input-mail" id="mail" />
+          </div>
+          <div class="input-password-container">
+            <label for="password">Password</label>
+            <input type="password" class="input-password" id="password" />
+          </div>
+
+          <button>Login</button>
+        </div>
       </form>
     </main>
   </body>
