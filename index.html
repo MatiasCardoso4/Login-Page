@@ -12,11 +12,19 @@
             <h2>Login</h2>
             <div class="input-mail-container">
               <label for="mail">Email</label>
-              <input type="mail" class="input-mail" id="mail" />
+              <input type="email" class="input-mail" id="email" required />
+              <span class="email-error"></span>
             </div>
             <div class="input-password-container">
               <label for="password">Password</label>
-              <input type="password" class="input-password" id="password" />
+              <input
+                type="password"
+                class="input-password"
+                id="password"
+                required
+                minlength="6"
+              />
+              <span class="password-error"></span>
             </div>
             <p class="forgot-password">
               <a href="">¿Has olvidado la contraseña?</a>
@@ -29,5 +37,6 @@
         </div>
       </form>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
