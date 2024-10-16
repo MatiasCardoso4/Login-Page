@@ -67,6 +67,7 @@ input[type="password"]:focus {
 .forgot-password {
   text-align: right;
   margin-top: 6px;
+  margin-bottom: 12px;
 }
 
 .forgot-password a {
@@ -113,5 +114,5 @@ button:active {
   background-color: lightcoral;
   border: 1px solid red;
   padding: 8px;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
